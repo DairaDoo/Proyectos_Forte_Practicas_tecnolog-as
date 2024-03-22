@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Validación</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Container Principal-->
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <!--Username-->
+            <div class="input-contol">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <!--Email-->
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <!--Password-->
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <!--Password Confirmation-->
+            <div class="input-control">
+                <label for="password">Password again</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+        </form>
+    </div>
+
+
+    <!--Javascript-->
+    <script defer src="script.js"></script> <!-- defer waits until the document is loaded.-->
+</body>
+</html>
